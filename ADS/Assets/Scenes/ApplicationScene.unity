@@ -874,6 +874,7 @@ GameObject:
   - component: {fileID: 944172422}
   - component: {fileID: 944172421}
   - component: {fileID: 944172420}
+  - component: {fileID: 944172423}
   m_Layer: 5
   m_Name: Horario
   m_TagString: Untagged
@@ -976,6 +977,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944172418}
   m_CullTransparentMesh: 0
+--- !u!114 &944172423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944172418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 121df9383418f7b4aa76c82b1eeb6802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BkPerm: {fileID: 944172420}
 --- !u!1 &957456378
 GameObject:
   m_ObjectHideFlags: 0

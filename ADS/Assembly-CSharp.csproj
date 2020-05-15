@@ -58,6 +58,7 @@
      <Compile Include="Assets\src\scripts\BkPermisosScene.cs" />
      <Compile Include="Assets\src\scripts\FwAsignPermisos.cs" />
      <Compile Include="Assets\src\scripts\FwCompPermisos.cs" />
+     <Compile Include="Assets\src\scripts\FwConsulHorarios.cs" />
      <Compile Include="Assets\src\scripts\FwConsulPermisos.cs" />
      <Compile Include="Assets\src\scripts\FwQuitPermisos.cs" />
      <Compile Include="Assets\src\scripts\Login.cs" />

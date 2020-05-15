@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuitarPermisos.unity
     guid: 0bf2c7733977a8543a9e9763c9b44236
+  - enabled: 1
+    path: Assets/Scenes/ConsultarHorarios.unity
+    guid: 3cbb893843a821e4ead4b0f58dca1176
   m_configObjects: {}
