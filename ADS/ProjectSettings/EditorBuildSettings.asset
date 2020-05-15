@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ConsultarHorarios.unity
     guid: 3cbb893843a821e4ead4b0f58dca1176
+  - enabled: 1
+    path: Assets/Scenes/Subasta_Scene.unity
+    guid: 6b7fd5bd714cfb445b55e31022239a97
   m_configObjects: {}

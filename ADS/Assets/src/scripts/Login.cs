@@ -48,9 +48,9 @@ public class Login : MonoBehaviour
              }
          }while(cmp != null);
          if(mail == true && pssw == true){
-             SceneManager.LoadScene("ApplicationScene");
+            
          }else{
-             Debug.Log("Usuario No encontrado");
+            
          }
          reader.Close();
          
@@ -63,7 +63,8 @@ public class Login : MonoBehaviour
             //usuarios para validar el login, No es muy necesario 
             //pero quedaria mamalon xD
             //SceneManager.LoadScene("ApplicationScene");
-            ReadString();
+            //ReadString();
+            SceneManager.LoadScene("ApplicationScene");
         }
        
         

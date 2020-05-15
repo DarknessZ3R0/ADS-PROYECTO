@@ -45,7 +45,7 @@ public class SceneLogin : MonoBehaviour
             //mensaje.SetActive(true);
             Debug.Log("No Entro");
         }else{
-            WriteString();//check
+            //WriteString();//check
             SceneManager.LoadScene("Home_Scene");
             //Debug.Log("Entro");
         }

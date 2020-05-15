@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< Updated upstream
-- path: Assets/Scenes/ConsultarHorarios.unity
-=======
-- path: Assets/Scenes/Registro_Scene.unity
->>>>>>> Stashed changes
+- path: Assets/Scenes/Home_Scene.unity
   isLoaded: 1
   isActive: 1
