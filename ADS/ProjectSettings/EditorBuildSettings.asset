@@ -14,4 +14,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ApplicationScene.unity
     guid: 57b49891e10be2043ba706c01b0302ed
+  - enabled: 1
+    path: Assets/Scenes/Permisos.unity
+    guid: 32b76a43ed2066e468d1624105f0a36e
+  - enabled: 1
+    path: Assets/Scenes/AsignarPermisos.unity
+    guid: bfad5a9b09df20446b260e1c354e7d1f
+  - enabled: 1
+    path: Assets/Scenes/CompletoPermisos.unity
+    guid: 8613e46a756caad4f9bbb17bcc8e077d
+  - enabled: 1
+    path: Assets/Scenes/ConsultarPermisos.unity
+    guid: 95f1c40f2c62fa04aa81b7803b4ba5e4
+  - enabled: 1
+    path: Assets/Scenes/QuitarPermisos.unity
+    guid: 0bf2c7733977a8543a9e9763c9b44236
   m_configObjects: {}

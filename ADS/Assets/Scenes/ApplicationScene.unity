@@ -190,8 +190,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1051078151}
   m_HandleRect: {fileID: 1051078150}
   m_Direction: 2
-  m_Value: 0.99999964
-  m_Size: 0.7532102
+  m_Value: 1
+  m_Size: 0.75321025
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1208,8 +1208,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 754475645}
   m_HandleRect: {fileID: 754475644}
   m_Direction: 0
-  m_Value: 1
-  m_Size: 0.9999999
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1702,7 +1702,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Deberes
+  m_Text: Permisos
 --- !u!222 &1520223448
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1920,8 +1920,9 @@ GameObject:
   - component: {fileID: 1709441220}
   - component: {fileID: 1709441219}
   - component: {fileID: 1709441218}
+  - component: {fileID: 1709441221}
   m_Layer: 5
-  m_Name: Deberes
+  m_Name: Permisos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2022,6 +2023,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709441216}
   m_CullTransparentMesh: 0
+--- !u!114 &1709441221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709441216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b61b6831dfbaa6940b130e46a019b9e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BkPerm: {fileID: 1709441218}
 --- !u!1 &1729309065
 GameObject:
   m_ObjectHideFlags: 0
