@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class BkApplicationScene : MonoBehaviour
 {
     public Button L0gout;
+    public string scene="ApplicationScene";
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,7 @@ public class BkApplicationScene : MonoBehaviour
     }
 
     void TaskOnClick(){
-        SceneManager.LoadScene("ApplicationScene");
+        SceneManager.LoadScene(scene);
     }
    
 }

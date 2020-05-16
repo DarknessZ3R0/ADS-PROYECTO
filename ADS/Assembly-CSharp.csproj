@@ -57,6 +57,7 @@
      <Compile Include="Assets\src\scripts\BkApplicationScene.cs" />
      <Compile Include="Assets\src\scripts\BkPermisosScene.cs" />
      <Compile Include="Assets\src\scripts\Cancelar.cs" />
+     <Compile Include="Assets\src\scripts\Capacidad_subasta.cs" />
      <Compile Include="Assets\src\scripts\FwAsignPermisos.cs" />
      <Compile Include="Assets\src\scripts\FwCompPermisos.cs" />
      <Compile Include="Assets\src\scripts\FwConsulHorarios.cs" />
@@ -67,6 +68,8 @@
      <Compile Include="Assets\src\scripts\MessageInvisible.cs" />
      <Compile Include="Assets\src\scripts\SceneLogin.cs" />
      <Compile Include="Assets\src\scripts\SceneRegistro.cs" />
+     <Compile Include="Assets\src\scripts\ShowMessage.cs" />
+     <Compile Include="Assets\src\scripts\Status.cs" />
      <None Include="Assets\src\scripts\Usuarios.txt" />
      <None Include="Assets\src\scripts\test.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">

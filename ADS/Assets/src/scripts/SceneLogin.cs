@@ -14,7 +14,7 @@ public class SceneLogin : MonoBehaviour
     public InputField User_password;
     public InputField User_id;
     public InputField User_birthday;
-    //public GameObject mensaje;
+    public GameObject mensaje;
   
     void Start()
     {
@@ -42,8 +42,8 @@ public class SceneLogin : MonoBehaviour
    
     void TaskOnClick(){
         if((User_mail.text == "") && (User_password.text == "") && (User_id.text == "") && (User_birthday.text == "") ){
-            //mensaje.SetActive(true);
-            Debug.Log("No Entro");
+            mensaje.SetActive(true);
+            //Debug.Log("No Entro");
         }else{
             //WriteString();//check
             SceneManager.LoadScene("Home_Scene");

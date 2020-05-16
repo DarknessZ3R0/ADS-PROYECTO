@@ -11,6 +11,8 @@ public class Login : MonoBehaviour
     public InputField password;
     public Button login;
     public GameObject mensaje;
+    public bool Alumno=false;
+    public bool Tutor=false;
     // Start is called before the first frame update
     void Start()
     {
@@ -59,12 +61,19 @@ public class Login : MonoBehaviour
         if((User_mail.text == "") && (password.text == "")){
             mensaje.SetActive(true);
         }else{
-            //implementar el read de algun archivo y una busqueda de 
-            //usuarios para validar el login, No es muy necesario 
-            //pero quedaria mamalon xD
-            //SceneManager.LoadScene("ApplicationScene");
-            //ReadString();
-            SceneManager.LoadScene("ApplicationScene");
+            if(User_mail.text == "usuario.alumno@uabc.edu.mx" && password.text == "12345"){
+                PlayerPrefs.SetInt("Usuario",0);
+                Alumno = true;
+                SceneManager.LoadScene("Application_Alumno");
+               
+                
+            }else if(User_mail.text == "usuario.tutor@uabc.edu.mx" && password.text == "12345"){
+                Tutor = true;
+                PlayerPrefs.SetInt("Usuario",1);
+                SceneManager.LoadScene("ApplicationScene");
+                
+            }
+            
         }
        
         

@@ -350,6 +350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   L0gout: {fileID: 944172420}
+  scene: ApplicationScene
 --- !u!1 &1092740666
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,10 +660,10 @@ RectTransform:
   m_Father: {fileID: 1971676008}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 20, y: -109}
-  m_SizeDelta: {x: 560, y: 500}
+  m_SizeDelta: {x: -240, y: -1102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1520681389
 MonoBehaviour:
@@ -685,8 +686,8 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 1
-    m_FontStyle: 3
-    m_BestFit: 0
+    m_FontStyle: 1
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4

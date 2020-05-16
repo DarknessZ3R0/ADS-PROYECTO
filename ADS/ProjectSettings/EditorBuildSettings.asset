@@ -35,4 +35,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Subasta_Scene.unity
     guid: 6b7fd5bd714cfb445b55e31022239a97
+  - enabled: 1
+    path: Assets/Scenes/Application_Alumno.unity
+    guid: 5c582aa951977f241940f650b717bfa0
+  - enabled: 1
+    path: Assets/Scenes/Consulta_Alumno_Horario.unity
+    guid: 61ae68249ebdf914cbf1bec127849373
+  - enabled: 1
+    path: Assets/Scenes/Consultar_Alumnos.unity
+    guid: e9282f9ac7255d64b90254b7f156d5e1
+  - enabled: 1
+    path: Assets/Scenes/Alumno_Calendario.unity
+    guid: f3e48192393915d41989a567cdda8f68
   m_configObjects: {}
